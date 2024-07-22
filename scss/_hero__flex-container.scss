@@ -1,0 +1,21 @@
+.hero__flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+    
+
+    .flex-container__child{
+        flex: 1;
+        max-width: 370px;
+        width: 100%;
+        height: auto;
+        flex-shrink:  1;
+        
+    }
+
+}
+
+
